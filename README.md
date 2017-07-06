@@ -87,4 +87,5 @@ B请求锁，过期时间戳为10；同时C也请求锁，过期时间戳为9；
 
 
 参考：[Redis setnx]( https://redis.io/commands/setnx)
+
 博客：[说说Redis的setnx]( https://jiachuhuang.github.io/2017/07/06/%E8%AF%B4%E8%AF%B4Redis%E7%9A%84setnx/)
