@@ -86,8 +86,9 @@ class Redis_lock {
 	/**
 	* 获取毫秒时间戳
 	*/
-	public function get_millisecond() {
-    	list ( $t1, $t2 ) = explode ( ' ', microtime () );
-    	return ( float ) sprintf ( '%.0f', (floatval ( $t1 ) + floatval ( $t2 )) * 1000 );
+	public function get_millisecond() 
+	{
+    		list ( $t1, $t2 ) = explode ( ' ', microtime () );
+    		return ( float ) sprintf ( '%.0f', (floatval ( $t1 ) + floatval ( $t2 )) * 1000 );
 	}
 }
